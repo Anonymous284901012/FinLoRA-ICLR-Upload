@@ -1,0 +1,1 @@
+See the following anonymous repo to access FinLoRA data: https://anonymous.4open.science/r/FinLoRA-ICLR-115E. Specifically look for the "4bits_r4," "8bits_r8," "8bits_r8_dora," and "8bits_r8_rslora" folders under the data folder in the repo.
