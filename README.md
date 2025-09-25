@@ -4,17 +4,7 @@ This repo is anonymous for ICLR submission.
 
 ## Abstract
 
-Low-rank adaptation (LoRA) methods offer an affordable solution to scale general-purpose
-LLMs to hundreds of use scenarios. However, their efficacy in high-stakes domains like finance is rarely
-explored, e.g., passing CFA exams and analyzing SEC filings.
-
-This open-source FinLoRA project benchmarks LoRA methods on both general and highly professional financial tasks.
-First, we curated 19 datasets covering diverse financial applications; in particular, four novel XBRL analysis datasets are based on 150 SEC
-filings. Second, we evaluated five LoRA methods and five base LLMs. Finally, we provide extensive experimental results
-in terms of accuracy, F1, and BERTScore and report computational cost in terms of time and GPU memory during fine-tuning
-and inference stages. We find that LoRA methods achieved substantial performance gains of 36% on average over base
-models. Our FinLoRA project provides an affordable and scalable approach to democratize financial intelligence to the
-general public.
+Low-rank adaptation (LoRA) methods show great potential for scaling pre-trained general-purpose Large Language Models (LLMs) to hundreds or thousands of use scenarios. However, their efficacy in high-stakes domains like finance is rarely explored, e.g., passing CFA exams and analyzing SEC filings. In this paper, we present the open-source FinLoRA project that benchmarks LoRA methods on both general and highly professional financial tasks. First, we curated 19 datasets covering diverse financial applications; in particular, we created four novel XBRL analysis datasets based on 150 SEC filings. Second, we evaluated five LoRA methods and five base LLMs. Finally, we provide extensive experimental results in terms of accuracy, F1, and BERTScore and report computational costs in terms of time and GPU memory during fine-tuning and inference stages. We find that LoRA achieved substantial performance gains of 40.1 points on average over base models. Our FinLoRA project provides an affordable and scalable approach to democratize financial intelligence to the general public. Datasets, LoRA adapters, code, and documentation are available at [https://anonymous.4open.science/r/FinLoRA-ICLR-115E](https://anonymous.4open.science/r/FinLoRA-ICLR-115E).
 
 ## Motivation
 
